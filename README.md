@@ -14,7 +14,6 @@
 - [User Flow Diagrams](#user-flow-diagrams)
 - [Database Outline](#database-outline)
 - [Database Schema](#database-schema)
-- [Development Milestones](#development-milestones)
 
 ---
 
@@ -111,15 +110,20 @@ The application targets compliance officers, risk managers, IT and security team
 
 ### Wireframes
 
-1. **Dashboard Screen**  
+1. **Dashboard Screen**
+   
    ![Dashboard Screen](images/Dashboard.png)
-2. **Document Management Screen**  
+3. **Document Management Screen**
+   
    ![Document Management Screen](images/Document-Management.png)
-3. **Risk Register Screen**  
+5. **Risk Register Screen**
+   
    ![Risk Register Screen](images/Risk-Register.png)
-4. **Audit Management Screen**  
+7. **Audit Management Screen**
+   
    ![Audit Management Screen](images/Audit-Management.png)
-5. **User Management Screen**  
+9. **User Management Screen**
+    
    ![User Management Screen](images/User-Management.png)
 
 ---
@@ -128,18 +132,22 @@ The application targets compliance officers, risk managers, IT and security team
 
 1. **User Onboarding Flow**  
 Steps include account setup, initial configuration, and assigning default roles.
+
    ![User Onboarding Flow](images/User-Onboard-Flow.png)
 
-2. **Document Approval Flow** 
-Starting from document upload, users proceed to submit for review, followed by editing, approval, and final publication. 
+3. **Document Approval Flow**   
+Starting from document upload, users proceed to submit for review, followed by editing, approval, and final publication.
+
    ![Document Approval Flow](images/Document-Approval-Flow.png)
 
-3. **Risk Assessment Flow**  
+4. **Risk Assessment Flow**  
 Users log a new risk, assign scores, select treatment options (Mitigate, Accept, Transfer, Avoid), and link controls, concluding with an updated risk summary.
+
    ![Risk Assessment Flow](images/Risk-Assessment-Flow.png)
 
-4. **Audit Process Flow**  
+6. **Audit Process Flow**  
 Includes audit scheduling, checklist assignment, evidence collection, and final report generation.
+
    ![Audit Process Flow](images/Audit-Process-Flow.png)
 
 ---
