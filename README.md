@@ -127,32 +127,73 @@ The application targets compliance officers, risk managers, IT and security team
 ### User Flow Diagrams
 
 1. **User Onboarding Flow**  
+Steps include account setup, initial configuration, and assigning default roles.
    ![User Onboarding Flow](images/User-Onboard-Flow.png)
-2. **Document Approval Flow**  
+
+2. **Document Approval Flow** 
+Starting from document upload, users proceed to submit for review, followed by editing, approval, and final publication. 
    ![Document Approval Flow](images/Document-Approval-Flow.png)
+
 3. **Risk Assessment Flow**  
+Users log a new risk, assign scores, select treatment options (Mitigate, Accept, Transfer, Avoid), and link controls, concluding with an updated risk summary.
    ![Risk Assessment Flow](images/Risk-Assessment-Flow.png)
+
 4. **Audit Process Flow**  
+Includes audit scheduling, checklist assignment, evidence collection, and final report generation.
    ![Audit Process Flow](images/Audit-Process-Flow.png)
 
 ---
 
 ### Database Outline
 
+#### Entities 
 #### 1. Users
-- `id`, `username`, `email`, `role`, `created_at`
+Entity for recording user accounts and roles
+##### Attributes
+- `id`
+- `username`
+- `email`
+- `role`
+- `created_at`
 
 #### 2. Documents
-- `id`, `title`, `content`, `version`, `status`, `owner_id`, `created_at`, `updated_at`
+Entity for recording document details such as titles, content, and versioning
+##### Attributes
+- `id`
+- `title`
+- `content`
+- `version`
+- `status`
+- `owner_id`
+- `created_at`
+- `updated_at`
 
 #### 3. Risks
-- `id`, `description`, `impact_score`, `likelihood_score`, `treatment_option`, `control_links`
+Entity for recording logging and assessing risks with impact and likelihood scores
+##### Attributes
+- `id`
+- `description`
+- `impact_score`
+- `likelihood_score`
+- `treatment_option`
+- `control_links`
 
 #### 4. Audits
-- `id`, `title`, `status`, `scheduled_date`, `completed_date`
+Entity for recording audit activities and statuses
+##### Attributes
+- `id`
+- `title`
+- `status`
+- `scheduled_date`
+- `completed_date`
 
 #### 5. Audit Tasks
-- `id`, `audit_id`, `assigned_to`, `status`
+Entity for recording tasks associated with each audit
+##### Attributes
+- `id`
+- `audit_id`
+- `assigned_to`
+- `status`
 
 ---
 
