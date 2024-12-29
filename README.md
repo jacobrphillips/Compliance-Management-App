@@ -112,28 +112,28 @@ The application targets compliance officers, risk managers, IT and security team
 ### Wireframes
 
 1. **Dashboard Screen**  
-   ![Dashboard Screen](images/dashboard-screen.png)
+   ![Dashboard Screen](images/Dashboard.png)
 2. **Document Management Screen**  
-   ![Document Management Screen](images/document-management-screen.png)
+   ![Document Management Screen](images/Document-Management.png)
 3. **Risk Register Screen**  
-   ![Risk Register Screen](images/risk-register-screen.png)
+   ![Risk Register Screen](images/Risk-Register.png)
 4. **Audit Management Screen**  
-   ![Audit Management Screen](images/audit-management-screen.png)
+   ![Audit Management Screen](images/Audit-Management.png)
 5. **User Management Screen**  
-   ![User Management Screen](images/user-management-screen.png)
+   ![User Management Screen](images/User-Management.png)
 
 ---
 
 ### User Flow Diagrams
 
 1. **User Onboarding Flow**  
-   ![User Onboarding Flow](images/user-onboarding-flow.png)
+   ![User Onboarding Flow](images/User-Onboard-Flow.png)
 2. **Document Approval Flow**  
-   ![Document Approval Flow](images/document-approval-flow.png)
+   ![Document Approval Flow](images/Document-Approval-Flow.png)
 3. **Risk Assessment Flow**  
-   ![Risk Assessment Flow](images/risk-assessment-flow.png)
+   ![Risk Assessment Flow](images/Risk-Assessment-Flow.png)
 4. **Audit Process Flow**  
-   ![Audit Process Flow](images/audit-process-flow.png)
+   ![Audit Process Flow](images/Audit-Process-Flow.png)
 
 ---
 
@@ -158,15 +158,4 @@ The application targets compliance officers, risk managers, IT and security team
 
 ### Database Schema
 
-![Database Schema](images/database-schema.png)
-
----
-
-### Development Milestones
-
-1. **Milestone 1**: Initial database setup.
-2. **Milestone 2**: Dashboard implementation.
-3. **Milestone 3**: Document management module.
-4. **Milestone 4**: Risk management module.
-5. **Milestone 5**: Audit management module.
-6. **Milestone 6**: User management and final deployment.
+![Database Schema](images/Database-Schema.png)
